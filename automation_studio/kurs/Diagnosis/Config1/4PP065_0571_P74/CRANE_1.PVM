@@ -1,0 +1,9 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=CRANE_1 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                       BR_CRANE_TG_POS_1                                    USINT    0 "                                                     2#0000_0000"    0    5    1    2    1    0         
+                        BR_CRANE_RIGHT_1                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                       i                                    USINT    0 "                                                               0"    0    5    1   10    1    0         
+                                       n                                    USINT    0 "                                                               0"    0    5    1   10    1    0         
+                     BR_CRANE_MOVING_Z_1                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                     BR_CRANE_MOVING_X_1                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         

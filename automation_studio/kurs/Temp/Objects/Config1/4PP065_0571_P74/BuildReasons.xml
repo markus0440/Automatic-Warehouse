@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp065_0571_p74\plt_1\main.cpp.o">
+    <BuildReason>Target "main.cpp.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp065_0571_p74\crane_1\main.c.o">
+    <BuildReason>Target "main.c.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp065_0571_p74\crane_1\_bur_pvdef.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\4pp065_0571_p74\crane_1\main.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp065_0571_p74\crane_1\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\4pp065_0571_p74\crane_1\main.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp065_0571_p74\crane_1\crane_1.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\4pp065_0571_p74\crane_1\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp065_0571_p74\crane_1.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\4pp065_0571_p74\crane_1\crane_1.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+</BuildReasons>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UANodeSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:ua="http://br-automation.com/OpcUa/configuration/NodeSet.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">
+  <NamespaceUris>
+    <Uri>http://br-automation.com/OpcUa/PLC/PV/</Uri>
+  </NamespaceUris>
+  <Models>
+    <Model ModelUri="http://br-automation.com/OpcUa/PLC/PV/" Version="1.00" PublicationDate="2023-04-21T08:19:53Z" />
+  </Models>
+  <Extensions>
+    <Extension>
+      <ua:ModelInfo Tool="AutomationStudio" Version="4.5.2.102" />
+      <Provider>PV</Provider>
+    </Extension>
+  </Extensions>
+  <DefaultView>
+    <Module>
+      <GlobalVariables Name="Global PV">
+        <Variable Name="BR_CNV" DataType="i=1" />
+      </GlobalVariables>
+      <Task Name="CRANE_1">
+        <Variable Name="BR_CRANE_CONV_1" DataType="i=1" />
+        <Variable Name="BR_CRANE_LEFT_1" DataType="i=1" />
+        <Variable Name="BR_CRANE_LIFT_1" DataType="i=1" />
+        <Variable Name="BR_CRANE_LIM_LEFT_1" DataType="i=1" />
+        <Variable Name="BR_CRANE_LIM_MIDDLE_1" DataType="i=1" />
+        <Variable Name="BR_CRANE_LIM_RIGHT_1" DataType="i=1" />
+        <Variable Name="BR_CRANE_MOVING_X_1" DataType="i=1" />
+        <Variable Name="BR_CRANE_MOVING_Z_1" DataType="i=1" />
+        <Variable Name="BR_CRANE_RIGHT_1" DataType="i=1" />
+        <Variable Name="BR_CRANE_SENS_1" DataType="i=1" />
+        <Variable Name="BR_CRANE_TG_POS_1" DataType="i=3" />
+      </Task>
+      <Task Name="PLT_1">
+        <Variable Name="BR_PLT_BACK" DataType="i=1" />
+        <Variable Name="BR_PLT_BELT_1" DataType="i=1" />
+        <Variable Name="BR_PLT_CLAMP_1" DataType="i=1" />
+        <Variable Name="BR_PLT_CLAMP_DID_1" DataType="i=1" />
+        <Variable Name="BR_PLT_CNV" DataType="i=1" />
+        <Variable Name="BR_PLT_DOWN" DataType="i=1" />
+        <Variable Name="BR_PLT_EL_FULL" DataType="i=1" />
+        <Variable Name="BR_PLT_EL_MOVING" DataType="i=1" />
+        <Variable Name="BR_PLT_FRONT" DataType="i=1" />
+        <Variable Name="BR_PLT_GO" DataType="i=1" />
+        <Variable Name="BR_PLT_PLATE_1" DataType="i=1" />
+        <Variable Name="BR_PLT_PLATE_DID_1" DataType="i=1" />
+        <Variable Name="BR_PLT_PUSH_1" DataType="i=1" />
+        <Variable Name="BR_PLT_PUSH_DID_1" DataType="i=1" />
+        <Variable Name="BR_PLT_SENS_1" DataType="i=1" />
+        <Variable Name="BR_PLT_TURN_1" DataType="i=1" />
+        <Variable Name="BR_PLT_UP" DataType="i=1" />
+      </Task>
+    </Module>
+  </DefaultView>
+</UANodeSet>

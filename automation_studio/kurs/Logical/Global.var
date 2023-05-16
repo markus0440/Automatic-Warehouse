@@ -1,0 +1,5 @@
+VAR
+	BR_CNV : BOOL;
+	go : USINT;
+	crane_1_space : ARRAY[0..54] OF BOOL;
+END_VAR

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="4" ArVersion="D4.52">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="BR_CNV" />
+      </GlobalVariables>
+      <Task Name="PLT_1">
+        <Variable Name="BR_PLT_SENS_1" />
+        <Variable Name="BR_PLT_TURN_1" />
+        <Variable Name="BR_PLT_CLAMP_1" />
+        <Variable Name="BR_PLT_CLAMP_DID_1" />
+        <Variable Name="BR_PLT_PLATE_1" />
+        <Variable Name="BR_PLT_PLATE_DID_1" />
+        <Variable Name="BR_PLT_PUSH_1" />
+        <Variable Name="BR_PLT_PUSH_DID_1" />
+        <Variable Name="BR_PLT_BELT_1" />
+        <Variable Name="BR_PLT_BACK" />
+        <Variable Name="BR_PLT_CNV" />
+        <Variable Name="BR_PLT_DOWN" />
+        <Variable Name="BR_PLT_EL_FULL" />
+        <Variable Name="BR_PLT_EL_MOVING" />
+        <Variable Name="BR_PLT_FRONT" />
+        <Variable Name="BR_PLT_GO" />
+        <Variable Name="BR_PLT_UP" />
+      </Task>
+      <Task Name="CRANE_1">
+        <Variable Name="BR_CRANE_CONV_1" />
+        <Variable Name="BR_CRANE_SENS_1" />
+        <Variable Name="BR_CRANE_LEFT_1" />
+        <Variable Name="BR_CRANE_LIFT_1" />
+        <Variable Name="BR_CRANE_LIM_LEFT_1" />
+        <Variable Name="BR_CRANE_LIM_MIDDLE_1" />
+        <Variable Name="BR_CRANE_LIM_RIGHT_1" />
+        <Variable Name="BR_CRANE_MOVING_X_1" />
+        <Variable Name="BR_CRANE_MOVING_Z_1" />
+        <Variable Name="BR_CRANE_RIGHT_1" />
+        <Variable Name="BR_CRANE_TG_POS_1" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

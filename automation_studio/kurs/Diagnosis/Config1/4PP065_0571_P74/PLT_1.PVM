@@ -1,0 +1,8 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=PLT_1 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                      go                                    USINT    0 "                                                               0"    0    5    1   10    0    0         
+                              BR_PLT_CNV                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                       k                                    USINT    0 "                                                              20"    0    5    1   10    1    0         
+                                       i                                    USINT    0 "                                                               6"    0    5    1   10    1    0         
+                             BR_PLT_DOWN                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         

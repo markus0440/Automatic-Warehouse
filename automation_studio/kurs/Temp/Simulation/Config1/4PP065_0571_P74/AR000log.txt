@@ -1,0 +1,21 @@
+Fri Apr 21 11:19:36 2023
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Fri Apr 21 11:19:36 2023
+No ARsim registration found!
+
+Fri Apr 21 11:19:36 2023
+InstanceName: 01d9742a02576270
+
+Fri Apr 21 11:19:36 2023
+WorkingDirectory: C:\Users\Rustam\Desktop\kurs\Temp\Simulation\Config1\4PP065_0571_P74\
+
+Fri Apr 21 11:19:36 2023
+COMMAND_COLDSTART
+
+Fri Apr 21 11:19:38 2023
+Version: D4.52
+
+Fri Apr 21 11:20:49 2023
+COMMAND_TERMINATE
+
